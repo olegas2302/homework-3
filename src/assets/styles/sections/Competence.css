@@ -1,0 +1,52 @@
+.compBlock {
+    background: rgb(8, 2, 57);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+    cursor: pointer;
+    transition: .3s ease;
+    width: 300px;
+    color: white;
+}
+
+.compDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.showCompBtn {
+    border: none;
+    outline: none;
+    background: none;
+    transition: .1s ease-in-out;
+}
+
+.showCompBtn:active {
+    transform: scale(0.95);
+    transition: 0.001s ease-in-out;
+}
+
+.flexCompDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.compDescText {
+    color: rgb(202, 202, 202);
+    font-size: 16px;
+}
+
+.compProgressText {
+    color: rgb(202, 202, 202);
+    font-size: 12px;
+}
+

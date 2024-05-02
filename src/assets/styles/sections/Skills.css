@@ -1,0 +1,35 @@
+.skillBlock {
+    background: rgb(8, 2, 57);
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    padding: 20px;
+    margin-left: -0px;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .3s ease;
+    
+}
+
+.skillImage {
+    width: 30px;
+    height: 30px;
+}
+.skillName {
+    color: white;
+}
+
+.skillDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.skillText {
+    width: 300px;
+
+    color: rgb(202, 202, 202)
+}

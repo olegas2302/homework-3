@@ -1,0 +1,44 @@
+.skillsCards {
+    display: flex;
+    gap: 30px;
+
+    flex-wrap: wrap;
+    width: 560px;
+    margin-top: 145px;
+    margin-left: -497px;
+}
+
+.competenceCards {
+    display: flex;
+    gap: 30px;
+
+    flex-wrap: wrap;
+    width: 840px;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.titleCompetences {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.titleCompetencesText {
+    color: white;
+    margin: 30px 0px 10px 0px;
+}
+
+.competencesSection {
+    display: flex;
+    gap: 50px;
+}
+
+.filterButtons {
+    display: flex;
+    gap: 35px;
+}

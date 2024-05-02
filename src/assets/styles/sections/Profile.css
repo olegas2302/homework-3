@@ -1,0 +1,37 @@
+.profileBlock {
+    background: rgb(8, 2, 57);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    width: 500px;
+    margin-top: -px;
+}
+
+.profileName {
+    color: white;
+}
+
+.profileContent {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+}
+
+.profileImage {
+    width: 80px;
+    height: 80px;
+}
+
+.profileInfo {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.profileText {
+    width: 300px;
+    color: rgb(202, 202, 202);
+}
